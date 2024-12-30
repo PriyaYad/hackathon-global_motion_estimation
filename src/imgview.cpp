@@ -7,7 +7,7 @@ int main()
 {
     std::cout << "Hello World!"  << std::endl;
 
-    std::string img = "lenna.jpg";
+    std::string img = "./src/lenna.jpg";
     Mat srcImage = imread(img);
     if (!srcImage.data) {
         return 1;

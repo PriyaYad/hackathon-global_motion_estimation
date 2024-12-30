@@ -29,6 +29,8 @@ sudo ldconfig
 PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
 export PKG_CONFIG_PATH
 ```
-
-
+#### Command to compile files with g++ in linux
+```
+g++ src/imgview.cpp -I /usr/local/include/opencv4 -L /usr/local/lib -lopencv_imgcodecs -lopencv_core -lopencv_imgproc -lopencv_highgui -o imgview
+``` 
 
